@@ -9,9 +9,9 @@ function App() {
 
   return (
     <div>
-      <ShoppingCart />
-      <Counter />
-      {/* <TodoApp /> */}
+      {/* <ShoppingCart />
+      <Counter /> */}
+      <TodoApp />
     </div>
   );
 }

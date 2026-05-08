@@ -6,11 +6,13 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import cartReducer from "./features/cart.js"
 import counterReducer from "./features/counter.js"
+import todoReducer from "./features/todo.js"
 
 const store = configureStore({
   reducer: { 
     cart : cartReducer,
-    counter: counterReducer
+    counter: counterReducer,
+    todo: todoReducer,
    },
 });
 
